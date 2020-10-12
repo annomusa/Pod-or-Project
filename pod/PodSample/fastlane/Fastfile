@@ -1,0 +1,19 @@
+default_platform(:ios)
+
+platform :ios do
+  desc "build release ipa"
+  lane :build_ipa do
+    output_name = "sample.ipa".downcase
+    build_ios_app(
+      build_path: './archives', # specify where to put .xarchive files so we can delete it later
+      configuration: "Release",
+      clean: true,
+      destination: 'generic/platform=iOS',
+      export_method: "development",
+      export_options: { compileBitcode: true },
+      output_name: output_name,
+      scheme: 'PodSample',
+      silent: true
+    )
+  end
+end

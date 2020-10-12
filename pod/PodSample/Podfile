@@ -1,0 +1,22 @@
+platform :ios, '10.0'
+use_frameworks!
+
+workspace 'PodSample'
+
+target 'PodSample' do
+  project 'PodSample.xcodeproj'
+
+  pod 'AFNetworking', '3.2.1'
+  pod 'SDWebImage'
+  pod 'Alamofire'
+  pod 'MBProgressHUD'
+  pod 'Masonry'
+  pod 'SwiftyJSON'
+  pod 'SVProgressHUD'
+  pod 'MJRefresh'
+  pod 'CocoaLumberjack'
+  pod 'Realm'
+  pod 'SnapKit'
+  pod 'Kingfisher'
+  pod 'ModuleSample', :path => '../ModuleSample'
+end

@@ -20,3 +20,5 @@ DerivedData
 *.dSYM
 pod/PodSample/Pods/*
 project/ProjectSample/Pods/*
+archieves/
+spm/SPMSample/Payload

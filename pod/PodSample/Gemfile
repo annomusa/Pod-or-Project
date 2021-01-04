@@ -6,6 +6,6 @@ source 'http://www.rubygems.org'
 git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 
 group :ios_dev do
-    gem 'cocoapods', '1.9.3'
+    gem 'cocoapods'
     gem 'fastlane'
 end

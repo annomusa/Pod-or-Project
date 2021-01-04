@@ -6,27 +6,24 @@ workspace 'ProjectSample'
 target 'ProjectSample' do
   project 'ProjectSample.xcodeproj'
 
-  pod 'AFNetworking', '3.2.1'
-  pod 'SDWebImage'
-  pod 'Alamofire'
-  pod 'MBProgressHUD'
-  pod 'Masonry'
-  pod 'SwiftyJSON'
-  pod 'SVProgressHUD'
-  pod 'MJRefresh'
-  pod 'CocoaLumberjack'
-  pod 'Realm'
-  pod 'SnapKit'
-  pod 'Kingfisher'
+  pod 'AFNetworking', '4.0.1'
+  pod 'SDWebImage', '5.10.0'
+  pod 'Alamofire', '5.4.0'
+  pod 'MBProgressHUD', '1.2.0'
+  pod 'SwiftyJSON', '5.0.0'
+  pod 'CocoaLumberjack', '3.7.0'
+  pod 'Realm', '10.4.0'
+  pod 'SnapKit', '5.0.1'
+  pod 'Kingfisher', '5.15.8'
 end
 
 target 'ModuleSample' do
   project '../ModuleSample/ModuleSample.xcodeproj'
 
-  pod 'CocoaLumberjack'
-  pod 'Realm'
-  pod 'SnapKit'
-  pod 'Kingfisher'
+  pod 'CocoaLumberjack', '3.7.0'
+  pod 'Realm', '10.4.0'
+  pod 'SnapKit', '5.0.1'
+  pod 'Kingfisher', '5.15.8'
 end
 
 post_install do |installer|

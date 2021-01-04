@@ -11,8 +11,8 @@ Pod::Spec.new do |s|
   s.swift_version = ["5.0"]
   s.source_files = 'ModuleSample/**/*.{h,m,mm,swift,c}'
   s.public_header_files = 'ModuleSample/**/*.h'
-  s.dependency 'CocoaLumberjack'
-  s.dependency 'Realm'
-  s.dependency 'SnapKit'
-  s.dependency 'Kingfisher'
+  s.dependency 'CocoaLumberjack', '3.7.0'
+  s.dependency 'Realm', '10.4.0'
+  s.dependency 'SnapKit', '5.0.1'
+  s.dependency 'Kingfisher', '5.15.8'
 end

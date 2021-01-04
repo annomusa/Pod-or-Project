@@ -11,6 +11,7 @@ platform :ios do
       destination: 'generic/platform=iOS',
       export_method: "development",
       export_options: { compileBitcode: true },
+      xcargs: "-allowProvisioningUpdates",
       output_name: output_name,
       scheme: 'PodSample',
       silent: true

@@ -6721,6 +6721,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4170289A525CC599F7B77CE2 /* Pods-ModuleSample.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 8X9HUNQK76;
@@ -6737,6 +6738,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.moses.ModuleSample;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
@@ -6748,6 +6750,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DC99FC8A093A5F5B7E327902 /* Pods-ModuleSample.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 8X9HUNQK76;
@@ -6764,6 +6767,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.moses.ModuleSample;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;

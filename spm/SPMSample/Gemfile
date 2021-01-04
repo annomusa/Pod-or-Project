@@ -1,0 +1,10 @@
+#encoding: utf-8
+Encoding.default_external = Encoding::UTF_8
+Encoding.default_internal = Encoding::UTF_8
+
+source 'http://www.rubygems.org'
+git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
+
+group :ios_dev do
+    gem 'fastlane'
+end

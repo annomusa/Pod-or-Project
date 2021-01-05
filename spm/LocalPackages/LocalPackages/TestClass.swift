@@ -6,7 +6,10 @@
 //
 
 import Foundation
+import ModuleSample
 
 public class TestClass {
-    public init() { }
+    public init() {
+        _ = GeneratedClass1()
+    }
 }

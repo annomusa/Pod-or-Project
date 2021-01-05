@@ -7,12 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B1C2938E25A4576700A39058 /* AFNetworking in Frameworks */ = {isa = PBXBuildFile; productRef = B1C2938D25A4576700A39058 /* AFNetworking */; };
+		B1C2939025A4576700A39058 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = B1C2938F25A4576700A39058 /* SDWebImage */; };
+		B1C2939225A4576700A39058 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B1C2939125A4576700A39058 /* Alamofire */; };
+		B1C2939425A4576700A39058 /* MBProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = B1C2939325A4576700A39058 /* MBProgressHUD */; };
+		B1C2939625A4576700A39058 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = B1C2939525A4576700A39058 /* SwiftyJSON */; };
+		B1C2939825A4576700A39058 /* CocoaLumberjackSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B1C2939725A4576700A39058 /* CocoaLumberjackSwift */; };
+		B1C2939A25A4576800A39058 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B1C2939925A4576800A39058 /* RealmSwift */; };
+		B1C2939C25A4576800A39058 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = B1C2939B25A4576800A39058 /* SnapKit */; };
+		B1C2939E25A4576800A39058 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = B1C2939D25A4576800A39058 /* Kingfisher */; };
+		B1C293A125A4582300A39058 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C293A025A4582300A39058 /* File.swift */; };
 		B1DC57D425889D17001D9768 /* ExternalPackages.h in Headers */ = {isa = PBXBuildFile; fileRef = B1DC57D225889D17001D9768 /* ExternalPackages.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B1DC57DF25889D60001D9768 /* AFNetworking in Frameworks */ = {isa = PBXBuildFile; productRef = B1DC57DE25889D60001D9768 /* AFNetworking */; };
-		B1DC57E925889DEA001D9768 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B1DC57E825889DEA001D9768 /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B1C293A025A4582300A39058 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		B1DC57CF25889D17001D9768 /* ExternalPackages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExternalPackages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1DC57D225889D17001D9768 /* ExternalPackages.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExternalPackages.h; sourceTree = "<group>"; };
 		B1DC57D325889D17001D9768 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -23,19 +32,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1DC57DF25889D60001D9768 /* AFNetworking in Frameworks */,
-				B1DC57E925889DEA001D9768 /* Alamofire in Frameworks */,
+				B1C2939225A4576700A39058 /* Alamofire in Frameworks */,
+				B1C2939C25A4576800A39058 /* SnapKit in Frameworks */,
+				B1C2939025A4576700A39058 /* SDWebImage in Frameworks */,
+				B1C2939E25A4576800A39058 /* Kingfisher in Frameworks */,
+				B1C2939A25A4576800A39058 /* RealmSwift in Frameworks */,
+				B1C2939825A4576700A39058 /* CocoaLumberjackSwift in Frameworks */,
+				B1C2939425A4576700A39058 /* MBProgressHUD in Frameworks */,
+				B1C2939625A4576700A39058 /* SwiftyJSON in Frameworks */,
+				B1C2938E25A4576700A39058 /* AFNetworking in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B1C2938C25A4576700A39058 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B1DC57C525889D17001D9768 = {
 			isa = PBXGroup;
 			children = (
 				B1DC57D125889D17001D9768 /* ExternalPackages */,
 				B1DC57D025889D17001D9768 /* Products */,
+				B1C2938C25A4576700A39058 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,6 +76,7 @@
 			children = (
 				B1DC57D225889D17001D9768 /* ExternalPackages.h */,
 				B1DC57D325889D17001D9768 /* Info.plist */,
+				B1C293A025A4582300A39058 /* File.swift */,
 			);
 			path = ExternalPackages;
 			sourceTree = "<group>";
@@ -85,8 +110,15 @@
 			);
 			name = ExternalPackages;
 			packageProductDependencies = (
-				B1DC57DE25889D60001D9768 /* AFNetworking */,
-				B1DC57E825889DEA001D9768 /* Alamofire */,
+				B1C2938D25A4576700A39058 /* AFNetworking */,
+				B1C2938F25A4576700A39058 /* SDWebImage */,
+				B1C2939125A4576700A39058 /* Alamofire */,
+				B1C2939325A4576700A39058 /* MBProgressHUD */,
+				B1C2939525A4576700A39058 /* SwiftyJSON */,
+				B1C2939725A4576700A39058 /* CocoaLumberjackSwift */,
+				B1C2939925A4576800A39058 /* RealmSwift */,
+				B1C2939B25A4576800A39058 /* SnapKit */,
+				B1C2939D25A4576800A39058 /* Kingfisher */,
 			);
 			productName = ExternalPackages;
 			productReference = B1DC57CF25889D17001D9768 /* ExternalPackages.framework */;
@@ -102,6 +134,7 @@
 				TargetAttributes = {
 					B1DC57CE25889D17001D9768 = {
 						CreatedOnToolsVersion = 12.1;
+						LastSwiftMigration = 1230;
 					};
 				};
 			};
@@ -118,6 +151,12 @@
 				B1DC57DD25889D60001D9768 /* XCRemoteSwiftPackageReference "AFNetworking" */,
 				B1DC57E525889DC0001D9768 /* XCRemoteSwiftPackageReference "SDWebImage" */,
 				B1DC57E725889DEA001D9768 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				B1FE59B325A31F480076D486 /* XCRemoteSwiftPackageReference "MBProgressHUD" */,
+				B1FE59B725A31FAE0076D486 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				B1FE59BB25A321260076D486 /* XCRemoteSwiftPackageReference "CocoaLumberjack" */,
+				B14250DF25A3282600F798B1 /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+				B14250E425A35FE900F798B1 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				B14250E825A3793A00F798B1 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = B1DC57D025889D17001D9768 /* Products */;
 			projectDirPath = "";
@@ -143,6 +182,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1C293A125A4582300A39058 /* File.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +241,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -259,7 +299,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -274,6 +314,7 @@
 		B1DC57D825889D17001D9768 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 8X9HUNQK76;
@@ -290,6 +331,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.moses.ExternalPackages;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,6 +340,7 @@
 		B1DC57D925889D17001D9768 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 8X9HUNQK76;
@@ -343,6 +386,30 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		B14250DF25A3282600F798B1 /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa";
+			requirement = {
+				kind = exactVersion;
+				version = 10.4.0;
+			};
+		};
+		B14250E425A35FE900F798B1 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = exactVersion;
+				version = 5.0.1;
+			};
+		};
+		B14250E825A3793A00F798B1 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = exactVersion;
+				version = 5.15.8;
+			};
+		};
 		B1DC57DD25889D60001D9768 /* XCRemoteSwiftPackageReference "AFNetworking" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/AFNetworking/AFNetworking";
@@ -367,18 +434,77 @@
 				version = 5.4.0;
 			};
 		};
+		B1FE59B325A31F480076D486 /* XCRemoteSwiftPackageReference "MBProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jdg/MBProgressHUD";
+			requirement = {
+				kind = exactVersion;
+				version = 1.2.0;
+			};
+		};
+		B1FE59B725A31FAE0076D486 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
+			requirement = {
+				kind = exactVersion;
+				version = 5.0.0;
+			};
+		};
+		B1FE59BB25A321260076D486 /* XCRemoteSwiftPackageReference "CocoaLumberjack" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CocoaLumberjack/CocoaLumberjack";
+			requirement = {
+				kind = exactVersion;
+				version = 3.7.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		B1DC57DE25889D60001D9768 /* AFNetworking */ = {
+		B1C2938D25A4576700A39058 /* AFNetworking */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = B1DC57DD25889D60001D9768 /* XCRemoteSwiftPackageReference "AFNetworking" */;
 			productName = AFNetworking;
 		};
-		B1DC57E825889DEA001D9768 /* Alamofire */ = {
+		B1C2938F25A4576700A39058 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B1DC57E525889DC0001D9768 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		B1C2939125A4576700A39058 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = B1DC57E725889DEA001D9768 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
+		};
+		B1C2939325A4576700A39058 /* MBProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B1FE59B325A31F480076D486 /* XCRemoteSwiftPackageReference "MBProgressHUD" */;
+			productName = MBProgressHUD;
+		};
+		B1C2939525A4576700A39058 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B1FE59B725A31FAE0076D486 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		B1C2939725A4576700A39058 /* CocoaLumberjackSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B1FE59BB25A321260076D486 /* XCRemoteSwiftPackageReference "CocoaLumberjack" */;
+			productName = CocoaLumberjackSwift;
+		};
+		B1C2939925A4576800A39058 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B14250DF25A3282600F798B1 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+		B1C2939B25A4576800A39058 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B14250E425A35FE900F798B1 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		B1C2939D25A4576800A39058 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B14250E825A3793A00F798B1 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

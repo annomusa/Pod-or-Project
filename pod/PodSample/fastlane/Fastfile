@@ -5,6 +5,7 @@ platform :ios do
   lane :build_ipa do
     output_name = "sample.ipa".downcase
     build_ios_app(
+      workspace: 'PodSample.xcworkspace',
       build_path: './archives', # specify where to put .xarchive files so we can delete it later
       configuration: "Release",
       clean: true,

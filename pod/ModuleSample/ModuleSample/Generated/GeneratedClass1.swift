@@ -1,4 +1,5 @@
-
+import Realm
+import Kingfisher
 public class GeneratedClass1 {
   public var a: String = ""
   public var b: String = ""

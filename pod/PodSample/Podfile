@@ -1,4 +1,6 @@
-platform :ios, '10.0'
+platform :ios, '11.0'
+
+use_frameworks!
 
 workspace 'PodSample'
 
@@ -10,11 +12,11 @@ target 'PodSample' do
   pod 'Alamofire', '5.4.0' # 3
   pod 'MBProgressHUD', '1.2.0' # 4
   pod 'SwiftyJSON', '5.0.0' # 5
-  pod 'CocoaLumberjack', '3.7.0', :modular_headers => true # 6
-  pod 'Realm', '10.4.0', :modular_headers => true # 7
-  pod 'SnapKit', '5.0.1', :modular_headers => true # 8
-  pod 'Kingfisher', '5.15.8', :modular_headers => true # 9
-  pod 'ModuleSample', :path => '../ModuleSample', :modular_headers => true
+  pod 'CocoaLumberjack', '3.7.0' # 6
+  pod 'Realm', '10.4.0' # 7
+  pod 'SnapKit', '5.0.1' # 8
+  pod 'Kingfisher', '5.15.8' # 9
+  pod 'ModuleSample', :path => '../ModuleSample'
 end
 
 post_install do |installer|

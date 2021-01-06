@@ -17,7 +17,8 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
-//        .package(url: "https://github.com/AFNetworking/AFNetworking", .exact("4.0.1")),
+        .package(name: "MagazineLayout", url: "https://github.com/airbnb/MagazineLayout", .exact("1.6.3")),
+        .package(url: "https://github.com/AFNetworking/AFNetworking", .exact("4.0.1")),
 //        .package(url: "https://github.com/Alamofire/Alamofire", .exact("5.4.0")),
 //        .package(url: "https://github.com/CocoaLumberjack/CocoaLumberjack", .exact("3.7.0")),
 //        .package(url: "https://github.com/onevcat/Kingfisher", .exact("5.15.8")),
@@ -33,7 +34,8 @@ let package = Package(
         .target(
             name: "ModuleSample",
             dependencies: [
-//                "AFNetworking",
+                "MagazineLayout",
+                "AFNetworking",
 //                "Alamofire",
 //                .product(name: "CocoaLumberjackSwift", package: "CocoaLumberjack"),
 //                "Kingfisher",

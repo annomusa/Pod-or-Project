@@ -5,9 +5,9 @@
       location = "container:SPMSample/SPMSample.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:ExternalPackages/ExternalPackages.xcodeproj">
+      location = "group:FeatureModule/FeatureModule.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:LocalPackages/LocalPackages.xcodeproj">
+      location = "group:Packages/Packages.xcodeproj">
    </FileRef>
 </Workspace>

@@ -38,6 +38,15 @@
         }
       },
       {
+        "package": "MagazineLayout",
+        "repositoryURL": "https://github.com/airbnb/MagazineLayout",
+        "state": {
+          "branch": null,
+          "revision": "6f88742c282de208e48cb738a7a14b7dc2651701",
+          "version": "1.6.3"
+        }
+      },
+      {
         "package": "MBProgressHUD",
         "repositoryURL": "https://github.com/jdg/MBProgressHUD",
         "state": {

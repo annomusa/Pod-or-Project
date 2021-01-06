@@ -6,8 +6,6 @@
 //
 
 import UIKit
-import LocalPackages
-import ExternalPackages
 import AFNetworking
 import Alamofire
 import CocoaLumberjackSwift

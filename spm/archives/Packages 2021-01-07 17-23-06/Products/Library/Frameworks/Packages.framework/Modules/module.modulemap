@@ -1,0 +1,6 @@
+framework module Packages {
+  umbrella header "Packages.h"
+
+  export *
+  module * { export * }
+}

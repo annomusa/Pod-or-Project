@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		B12911AE25A4ADA900D1C830 /* Packages.h in Headers */ = {isa = PBXBuildFile; fileRef = B12911AC25A4ADA900D1C830 /* Packages.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B19B889D25A6E0B6008D96E1 /* AFNetworking in Frameworks */ = {isa = PBXBuildFile; productRef = B19B889C25A6E0B6008D96E1 /* AFNetworking */; };
+		B19B889F25A6E0B6008D96E1 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = B19B889E25A6E0B6008D96E1 /* SDWebImage */; };
+		B19B88A125A6E0B6008D96E1 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B19B88A025A6E0B6008D96E1 /* Alamofire */; };
+		B19B88A325A6E0B6008D96E1 /* MBProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = B19B88A225A6E0B6008D96E1 /* MBProgressHUD */; };
+		B19B88A525A6E0B7008D96E1 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = B19B88A425A6E0B7008D96E1 /* SwiftyJSON */; };
+		B19B88A725A6E0B7008D96E1 /* CocoaLumberjackSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B19B88A625A6E0B7008D96E1 /* CocoaLumberjackSwift */; };
+		B19B88A925A6E0B7008D96E1 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B19B88A825A6E0B7008D96E1 /* RealmSwift */; };
+		B19B88AB25A6E0B7008D96E1 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = B19B88AA25A6E0B7008D96E1 /* SnapKit */; };
+		B19B88AD25A6E0B7008D96E1 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = B19B88AC25A6E0B7008D96E1 /* Kingfisher */; };
 		B19E664925A4AE96008621A0 /* MagazineLayout in Frameworks */ = {isa = PBXBuildFile; productRef = B19E664825A4AE96008621A0 /* MagazineLayout */; };
 /* End PBXBuildFile section */
 
@@ -22,7 +31,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B19B88A925A6E0B7008D96E1 /* RealmSwift in Frameworks */,
+				B19B88A525A6E0B7008D96E1 /* SwiftyJSON in Frameworks */,
+				B19B889F25A6E0B6008D96E1 /* SDWebImage in Frameworks */,
+				B19B88A125A6E0B6008D96E1 /* Alamofire in Frameworks */,
+				B19B88AD25A6E0B7008D96E1 /* Kingfisher in Frameworks */,
+				B19B88A325A6E0B6008D96E1 /* MBProgressHUD in Frameworks */,
+				B19B88A725A6E0B7008D96E1 /* CocoaLumberjackSwift in Frameworks */,
+				B19B88AB25A6E0B7008D96E1 /* SnapKit in Frameworks */,
 				B19E664925A4AE96008621A0 /* MagazineLayout in Frameworks */,
+				B19B889D25A6E0B6008D96E1 /* AFNetworking in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -34,6 +52,7 @@
 			children = (
 				B12911AB25A4ADA900D1C830 /* Packages */,
 				B12911AA25A4ADA900D1C830 /* Products */,
+				B19B889B25A6E0B6008D96E1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,6 +71,13 @@
 				B12911AD25A4ADA900D1C830 /* Info.plist */,
 			);
 			path = Packages;
+			sourceTree = "<group>";
+		};
+		B19B889B25A6E0B6008D96E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +110,15 @@
 			name = Packages;
 			packageProductDependencies = (
 				B19E664825A4AE96008621A0 /* MagazineLayout */,
+				B19B889C25A6E0B6008D96E1 /* AFNetworking */,
+				B19B889E25A6E0B6008D96E1 /* SDWebImage */,
+				B19B88A025A6E0B6008D96E1 /* Alamofire */,
+				B19B88A225A6E0B6008D96E1 /* MBProgressHUD */,
+				B19B88A425A6E0B7008D96E1 /* SwiftyJSON */,
+				B19B88A625A6E0B7008D96E1 /* CocoaLumberjackSwift */,
+				B19B88A825A6E0B7008D96E1 /* RealmSwift */,
+				B19B88AA25A6E0B7008D96E1 /* SnapKit */,
+				B19B88AC25A6E0B7008D96E1 /* Kingfisher */,
 			);
 			productName = Packages;
 			productReference = B12911A925A4ADA900D1C830 /* Packages.framework */;
@@ -122,8 +157,6 @@
 				B14250DF25A3282600F798B1 /* XCRemoteSwiftPackageReference "realm-cocoa" */,
 				B14250E425A35FE900F798B1 /* XCRemoteSwiftPackageReference "SnapKit" */,
 				B14250E825A3793A00F798B1 /* XCRemoteSwiftPackageReference "Kingfisher" */,
-				B129119B25A4AC3300D1C830 /* XCRemoteSwiftPackageReference "MagazineLayout" */,
-
 			);
 			productRefGroup = B12911AA25A4ADA900D1C830 /* Products */;
 			projectDirPath = "";
@@ -349,14 +382,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		B19E664725A4AE96008621A0 /* XCRemoteSwiftPackageReference "MagazineLayout" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/airbnb/MagazineLayout";
-			requirement = {
-				kind = exactVersion;
-				version = 1.6.3;
-			};
-		};
 		B14250DF25A3282600F798B1 /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/realm/realm-cocoa";
@@ -379,6 +404,14 @@
 			requirement = {
 				kind = exactVersion;
 				version = 5.15.8;
+			};
+		};
+		B19E664725A4AE96008621A0 /* XCRemoteSwiftPackageReference "MagazineLayout" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/MagazineLayout";
+			requirement = {
+				kind = exactVersion;
+				version = 1.6.3;
 			};
 		};
 		B1DC57DD25889D60001D9768 /* XCRemoteSwiftPackageReference "AFNetworking" */ = {
@@ -432,6 +465,51 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		B19B889C25A6E0B6008D96E1 /* AFNetworking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B1DC57DD25889D60001D9768 /* XCRemoteSwiftPackageReference "AFNetworking" */;
+			productName = AFNetworking;
+		};
+		B19B889E25A6E0B6008D96E1 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B1DC57E525889DC0001D9768 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		B19B88A025A6E0B6008D96E1 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B1DC57E725889DEA001D9768 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		B19B88A225A6E0B6008D96E1 /* MBProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B1FE59B325A31F480076D486 /* XCRemoteSwiftPackageReference "MBProgressHUD" */;
+			productName = MBProgressHUD;
+		};
+		B19B88A425A6E0B7008D96E1 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B1FE59B725A31FAE0076D486 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		B19B88A625A6E0B7008D96E1 /* CocoaLumberjackSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B1FE59BB25A321260076D486 /* XCRemoteSwiftPackageReference "CocoaLumberjack" */;
+			productName = CocoaLumberjackSwift;
+		};
+		B19B88A825A6E0B7008D96E1 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B14250DF25A3282600F798B1 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+		B19B88AA25A6E0B7008D96E1 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B14250E425A35FE900F798B1 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		B19B88AC25A6E0B7008D96E1 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B14250E825A3793A00F798B1 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
 		B19E664825A4AE96008621A0 /* MagazineLayout */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = B19E664725A4AE96008621A0 /* XCRemoteSwiftPackageReference "MagazineLayout" */;

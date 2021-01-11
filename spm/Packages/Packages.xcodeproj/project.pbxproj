@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B12911AE25A4ADA900D1C830 /* Packages.h in Headers */ = {isa = PBXBuildFile; fileRef = B12911AC25A4ADA900D1C830 /* Packages.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B15F2C8F25A89B75003AB536 /* ModuleSample in Frameworks */ = {isa = PBXBuildFile; productRef = B15F2C8E25A89B75003AB536 /* ModuleSample */; };
 		B19B889D25A6E0B6008D96E1 /* AFNetworking in Frameworks */ = {isa = PBXBuildFile; productRef = B19B889C25A6E0B6008D96E1 /* AFNetworking */; };
 		B19B889F25A6E0B6008D96E1 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = B19B889E25A6E0B6008D96E1 /* SDWebImage */; };
 		B19B88A125A6E0B6008D96E1 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B19B88A025A6E0B6008D96E1 /* Alamofire */; };
@@ -24,6 +25,7 @@
 		B12911A925A4ADA900D1C830 /* Packages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Packages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B12911AC25A4ADA900D1C830 /* Packages.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Packages.h; sourceTree = "<group>"; };
 		B12911AD25A4ADA900D1C830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B15F2C8C25A89B61003AB536 /* ModuleSample */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ModuleSample; path = ../ModuleSample; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 				B19B88A725A6E0B7008D96E1 /* CocoaLumberjackSwift in Frameworks */,
 				B19B88AB25A6E0B7008D96E1 /* SnapKit in Frameworks */,
 				B19E664925A4AE96008621A0 /* MagazineLayout in Frameworks */,
+				B15F2C8F25A89B75003AB536 /* ModuleSample in Frameworks */,
 				B19B889D25A6E0B6008D96E1 /* AFNetworking in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -50,6 +53,7 @@
 		B129119F25A4ADA900D1C830 = {
 			isa = PBXGroup;
 			children = (
+				B15F2C8C25A89B61003AB536 /* ModuleSample */,
 				B12911AB25A4ADA900D1C830 /* Packages */,
 				B12911AA25A4ADA900D1C830 /* Products */,
 				B19B889B25A6E0B6008D96E1 /* Frameworks */,
@@ -119,6 +123,7 @@
 				B19B88A825A6E0B7008D96E1 /* RealmSwift */,
 				B19B88AA25A6E0B7008D96E1 /* SnapKit */,
 				B19B88AC25A6E0B7008D96E1 /* Kingfisher */,
+				B15F2C8E25A89B75003AB536 /* ModuleSample */,
 			);
 			productName = Packages;
 			productReference = B12911A925A4ADA900D1C830 /* Packages.framework */;
@@ -465,6 +470,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		B15F2C8E25A89B75003AB536 /* ModuleSample */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ModuleSample;
+		};
 		B19B889C25A6E0B6008D96E1 /* AFNetworking */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = B1DC57DD25889D60001D9768 /* XCRemoteSwiftPackageReference "AFNetworking" */;

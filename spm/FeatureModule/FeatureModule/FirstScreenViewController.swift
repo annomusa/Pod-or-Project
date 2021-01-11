@@ -10,7 +10,8 @@ import Packages
 import Alamofire
 import Realm
 import SnapKit
+import ModuleSample
 
 public class FirstScreenViewController: UIViewController {
-    
+    let a = GeneratedClass1()
 }
